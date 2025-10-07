@@ -16,7 +16,7 @@ if hist_button: # al hacer clic en el botón
     st.plotly_chart(fig, use_container_width=True)
 
 car_data = pd.read_csv('vehicles_us.csv') # leer los datos
-disp_button = st.button('Construir histograma') # crear un botón
+disp_button = st.button('Construir gráfico de dispersión') # crear un botón
      
 if disp_button: # al hacer clic en el botón
          # escribir un mensaje
